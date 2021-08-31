@@ -16,9 +16,9 @@ def get_google_new_results( term, count ):
     return results
 
 
-print "Enter term to scrape from"
+print ( "Enter term to scrape from")
 x = str(raw_input(""))
 
 items = get_google_new_results( x, 50 )
 for title,link in items:
-	print title, ' ', link, '\n'
+	print ( title, ' ', link, '\n')
